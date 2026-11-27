@@ -1,0 +1,5 @@
+{
+  "name": "Ashbound.BattlePreview.Editor",
+  "references": ["Ashbound.Domain", "Ashbound.BattleScene"],
+  "includePlatforms": ["Editor"]
+}

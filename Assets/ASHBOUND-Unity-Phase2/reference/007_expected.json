@@ -1,0 +1,662 @@
+{
+  "version": 181,
+  "revision": "72bbe94b-22c9-4d7a-a698-79fd3f177240",
+  "cases": [
+    {
+      "seed": "phase1-007/0/game",
+      "initial": {
+        "character": "wanderer",
+        "deck": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          4,
+          4
+        ],
+        "hand": [
+          0,
+          4,
+          0,
+          0,
+          3
+        ],
+        "draw": [
+          1,
+          4,
+          1,
+          1,
+          3
+        ],
+        "hp": 70,
+        "boss": "瘴気の害獣"
+      },
+      "observations": [
+        {
+          "turn": 3,
+          "reservations": [
+            {
+              "key": "spores",
+              "count": 2,
+              "source": "swamp-1",
+              "avoid": null,
+              "giant": false
+            }
+          ],
+          "candidates": [
+            {
+              "id": 1,
+              "slot": 0
+            },
+            {
+              "id": 0,
+              "slot": 1
+            },
+            {
+              "id": 4,
+              "slot": 2
+            },
+            {
+              "id": 0,
+              "slot": 3
+            },
+            {
+              "id": 0,
+              "slot": 4
+            }
+          ],
+          "draws": [
+            0.14256437751464546,
+            0.06477826437912881
+          ],
+          "selected": [
+            {
+              "id": 1,
+              "slot": 0
+            },
+            {
+              "id": 0,
+              "slot": 1
+            }
+          ],
+          "modifiers": {
+            "0": {
+              "key": "spores",
+              "turn": 3
+            },
+            "1": {
+              "key": "spores",
+              "turn": 3
+            }
+          },
+          "costs": [
+            {
+              "id": 1,
+              "origin": 1,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 4,
+              "origin": 4,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            }
+          ]
+        }
+      ],
+      "restored": {
+        "turn": 3,
+        "hand": [
+          {
+            "id": 1,
+            "origin": 1,
+            "cost": 2
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          },
+          {
+            "id": 4,
+            "origin": 4,
+            "cost": 1
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          }
+        ],
+        "modifiers": {
+          "0": {
+            "key": "spores",
+            "turn": 3
+          },
+          "1": {
+            "key": "spores",
+            "turn": 3
+          }
+        }
+      }
+    },
+    {
+      "seed": "phase1-007/3/game",
+      "initial": {
+        "character": "wanderer",
+        "deck": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          4,
+          4
+        ],
+        "hand": [
+          0,
+          4,
+          3,
+          1,
+          3
+        ],
+        "draw": [
+          1,
+          4,
+          1,
+          0,
+          0
+        ],
+        "hp": 70,
+        "boss": "瘴気の害獣"
+      },
+      "observations": [
+        {
+          "turn": 3,
+          "reservations": [
+            {
+              "key": "spores",
+              "count": 2,
+              "source": "swamp-1",
+              "avoid": null,
+              "giant": false
+            }
+          ],
+          "candidates": [
+            {
+              "id": 1,
+              "slot": 0
+            },
+            {
+              "id": 3,
+              "slot": 1
+            },
+            {
+              "id": 4,
+              "slot": 2
+            },
+            {
+              "id": 3,
+              "slot": 3
+            },
+            {
+              "id": 1,
+              "slot": 4
+            }
+          ],
+          "draws": [
+            0.6268998254090548,
+            0.27632964262738824
+          ],
+          "selected": [
+            {
+              "id": 3,
+              "slot": 3
+            },
+            {
+              "id": 3,
+              "slot": 1
+            }
+          ],
+          "modifiers": {
+            "3": {
+              "key": "spores",
+              "turn": 3
+            }
+          },
+          "costs": [
+            {
+              "id": 1,
+              "origin": 1,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": 3,
+              "origin": 3,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 4,
+              "origin": 4,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": 3,
+              "origin": 3,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 1,
+              "origin": 1,
+              "cost": 1,
+              "after": 1
+            }
+          ]
+        }
+      ],
+      "restored": {
+        "turn": 3,
+        "hand": [
+          {
+            "id": 1,
+            "origin": 1,
+            "cost": 1
+          },
+          {
+            "id": 3,
+            "origin": 3,
+            "cost": 2
+          },
+          {
+            "id": 4,
+            "origin": 4,
+            "cost": 1
+          },
+          {
+            "id": 3,
+            "origin": 3,
+            "cost": 2
+          },
+          {
+            "id": 1,
+            "origin": 1,
+            "cost": 1
+          }
+        ],
+        "modifiers": {
+          "3": {
+            "key": "spores",
+            "turn": 3
+          }
+        }
+      }
+    },
+    {
+      "seed": "phase1-007/0/game",
+      "initial": {
+        "character": "lucky",
+        "deck": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          4,
+          4
+        ],
+        "hand": [
+          -1,
+          -2,
+          -3,
+          -4,
+          -5
+        ],
+        "draw": [
+          -6,
+          -7,
+          -8,
+          -9,
+          -10
+        ],
+        "hp": 77,
+        "boss": "瘴気の害獣"
+      },
+      "observations": [
+        {
+          "turn": 3,
+          "reservations": [
+            {
+              "key": "spores",
+              "count": 2,
+              "source": "swamp-1",
+              "avoid": null,
+              "giant": false
+            }
+          ],
+          "candidates": [
+            {
+              "id": -8,
+              "slot": 0
+            },
+            {
+              "id": -1,
+              "slot": 1
+            },
+            {
+              "id": -7,
+              "slot": 2
+            },
+            {
+              "id": -4,
+              "slot": 3
+            },
+            {
+              "id": -3,
+              "slot": 4
+            }
+          ],
+          "draws": [
+            0.14256437751464546,
+            0.06477826437912881
+          ],
+          "selected": [
+            {
+              "id": -8,
+              "slot": 0
+            },
+            {
+              "id": -1,
+              "slot": 1
+            }
+          ],
+          "modifiers": {
+            "-8": {
+              "key": "spores",
+              "turn": 3
+            },
+            "-1": {
+              "key": "spores",
+              "turn": 3
+            }
+          },
+          "costs": [
+            {
+              "id": -8,
+              "origin": 1,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": -1,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": -7,
+              "origin": 4,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": -4,
+              "origin": 0,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": -3,
+              "origin": 0,
+              "cost": 1,
+              "after": 1
+            }
+          ]
+        }
+      ],
+      "restored": {
+        "turn": 3,
+        "hand": [
+          {
+            "id": -8,
+            "origin": 1,
+            "cost": 2
+          },
+          {
+            "id": -1,
+            "origin": 0,
+            "cost": 2
+          },
+          {
+            "id": -7,
+            "origin": 4,
+            "cost": 1
+          },
+          {
+            "id": -4,
+            "origin": 0,
+            "cost": 1
+          },
+          {
+            "id": -3,
+            "origin": 0,
+            "cost": 1
+          }
+        ],
+        "modifiers": {
+          "-8": {
+            "key": "spores",
+            "turn": 3
+          },
+          "-1": {
+            "key": "spores",
+            "turn": 3
+          }
+        }
+      }
+    },
+    {
+      "seed": "phase1-007/0/game",
+      "initial": {
+        "character": "hunter",
+        "deck": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          4,
+          4
+        ],
+        "hand": [
+          0,
+          4,
+          0,
+          0,
+          3
+        ],
+        "draw": [
+          1,
+          4,
+          1,
+          1,
+          3
+        ],
+        "hp": 80,
+        "boss": "瘴気の害獣"
+      },
+      "observations": [
+        {
+          "turn": 3,
+          "reservations": [
+            {
+              "key": "spores",
+              "count": 2,
+              "source": "swamp-1",
+              "avoid": null,
+              "giant": false
+            }
+          ],
+          "candidates": [
+            {
+              "id": 1,
+              "slot": 0
+            },
+            {
+              "id": 0,
+              "slot": 1
+            },
+            {
+              "id": 4,
+              "slot": 2
+            },
+            {
+              "id": 0,
+              "slot": 3
+            },
+            {
+              "id": 0,
+              "slot": 4
+            }
+          ],
+          "draws": [
+            0.14256437751464546,
+            0.06477826437912881
+          ],
+          "selected": [
+            {
+              "id": 1,
+              "slot": 0
+            },
+            {
+              "id": 0,
+              "slot": 1
+            }
+          ],
+          "modifiers": {
+            "0": {
+              "key": "spores",
+              "turn": 3
+            },
+            "1": {
+              "key": "spores",
+              "turn": 3
+            }
+          },
+          "costs": [
+            {
+              "id": 1,
+              "origin": 1,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 4,
+              "origin": 4,
+              "cost": 1,
+              "after": 1
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            },
+            {
+              "id": 0,
+              "origin": 0,
+              "cost": 1,
+              "after": 2
+            }
+          ]
+        }
+      ],
+      "restored": {
+        "turn": 3,
+        "hand": [
+          {
+            "id": 1,
+            "origin": 1,
+            "cost": 2
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          },
+          {
+            "id": 4,
+            "origin": 4,
+            "cost": 1
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          },
+          {
+            "id": 0,
+            "origin": 0,
+            "cost": 2
+          }
+        ],
+        "modifiers": {
+          "0": {
+            "key": "spores",
+            "turn": 3
+          },
+          "1": {
+            "key": "spores",
+            "turn": 3
+          }
+        }
+      }
+    }
+  ]
+}

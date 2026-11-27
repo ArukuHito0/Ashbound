@@ -1,0 +1,4 @@
+{
+  "name": "Ashbound.BattleScene",
+  "references": ["Ashbound.Domain", "Ashbound.Infrastructure"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "com.ashbound.migration",
+  "version": "0.1.0",
+  "displayName": "ASHBOUND Migration",
+  "description": "ASHBOUND Unity migration foundation",
+  "unity": "6000.0",
+  "dependencies": {"com.unity.nuget.newtonsoft-json": "3.2.1"}
+}

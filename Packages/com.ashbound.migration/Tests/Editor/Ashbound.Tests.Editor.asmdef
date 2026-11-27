@@ -1,0 +1,1 @@
+{"name":"Ashbound.Tests.Editor","references":["Ashbound.Domain","Ashbound.Infrastructure"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}

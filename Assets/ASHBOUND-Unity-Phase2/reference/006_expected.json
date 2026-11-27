@@ -1,0 +1,233 @@
+{
+  "version": 181,
+  "revision": "72bbe94b-22c9-4d7a-a698-79fd3f177240",
+  "seed": "phase1-006-dynamic/game",
+  "encounters": [
+    {
+      "name": "act4-elites",
+      "start": 0,
+      "count": 4,
+      "output": [
+        [
+          "deer"
+        ],
+        [
+          "queen"
+        ],
+        [
+          "colony",
+          "attackBranch",
+          "guardBranch"
+        ],
+        [
+          "queen"
+        ]
+      ]
+    },
+    {
+      "name": "act4-boss",
+      "start": 4,
+      "count": 0,
+      "output": [
+        [
+          "tree",
+          220
+        ]
+      ]
+    },
+    {
+      "name": "act6-elites",
+      "start": 4,
+      "count": 4,
+      "output": [
+        [
+          "flower"
+        ],
+        [
+          "beast"
+        ],
+        [
+          "giant"
+        ],
+        [
+          "giant"
+        ]
+      ]
+    },
+    {
+      "name": "act6-normal",
+      "start": 8,
+      "count": 9,
+      "output": [
+        [
+          "crawler"
+        ],
+        [
+          "insect"
+        ],
+        [
+          "dead"
+        ],
+        [
+          "mist",
+          "sack"
+        ]
+      ]
+    },
+    {
+      "name": "act6-boss",
+      "start": 17,
+      "count": 0,
+      "output": [
+        [
+          "boss",
+          300
+        ]
+      ]
+    },
+    {
+      "name": "act7-boss",
+      "start": 17,
+      "count": 0,
+      "output": [
+        [
+          "donorA",
+          35
+        ],
+        [
+          "donorB",
+          35
+        ],
+        [
+          "lord",
+          320
+        ]
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "act4-tree-first-and-repeat-summon",
+      "start": 17,
+      "count": 0,
+      "output": [
+        {
+          "hosts": true
+        },
+        {
+          "d": 12
+        }
+      ]
+    },
+    {
+      "name": "act4-erosion-live-versus-snapshot",
+      "start": 17,
+      "count": 0,
+      "output": [
+        {
+          "d": 15,
+          "erosionAttack": 3
+        },
+        {
+          "d": 6,
+          "erosionAttack": 3
+        }
+      ]
+    },
+    {
+      "name": "act6-flower-action-count",
+      "start": 17,
+      "count": 0,
+      "output": [
+        {
+          "d": 8,
+          "junk": "spore",
+          "n": 2
+        },
+        {
+          "d": 8,
+          "junk": "spore",
+          "n": 3
+        }
+      ]
+    },
+    {
+      "name": "act7-funded-versus-fallback",
+      "start": 17,
+      "count": 0,
+      "output": [
+        {
+          "d": 8,
+          "unfunded": true,
+          "wantedCost": 15
+        },
+        {
+          "cost": 15,
+          "d": 7,
+          "h": 2,
+          "fallback": {
+            "d": 8
+          }
+        }
+      ]
+    },
+    {
+      "name": "act6-duplicate-versus-instance-identifiers",
+      "start": 17,
+      "count": 4,
+      "output": [
+        {
+          "hand": [
+            1,
+            1
+          ],
+          "modifiers": {
+            "1": {
+              "key": "spores",
+              "turn": 3
+            }
+          }
+        },
+        {
+          "hand": [
+            -101,
+            -102
+          ],
+          "modifiers": {
+            "-101": {
+              "key": "spores",
+              "turn": 3
+            },
+            "-102": {
+              "key": "spores",
+              "turn": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "rolls": [
+    0.14667434873990715,
+    0.280881515936926,
+    0.9954240010119975,
+    0.3292442827951163,
+    0.38153571472503245,
+    0.6554583350662142,
+    0.13467556005343795,
+    0.7600753263104707,
+    0.057821182534098625,
+    0.34627970098517835,
+    0.02943731821142137,
+    0.7456442562397569,
+    0.6788609239738435,
+    0.7576035624369979,
+    0.1630484175402671,
+    0.660115483449772,
+    0.5237590852193534,
+    0.312889649765566,
+    0.9812940270639956,
+    0.07065991964191198,
+    0.5978648285381496
+  ]
+}
